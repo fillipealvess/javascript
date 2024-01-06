@@ -1,0 +1,29 @@
+body{
+    background-color: #dacf31ce;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}

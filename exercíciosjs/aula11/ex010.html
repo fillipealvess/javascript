@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+    </style>
+
+    <title>Document</title>
+</head>
+<body>
+    <h1>SISTEMA DE MULTAS</h1>
+
+    <p>Velocidade do veículo: <input type="number" name="txtvel" id="txtvel"> Km/h </p>  
+    <input type="button" value="Verificar" id="btnverificar">
+    <div id="res"></div>
+
+
+    <script>
+        var btn = document.getElementById('btnverificar')
+        btn.addEventListener('click', verificar)
+
+        function verificar(){
+            var tnvel = document.getElementById('txtvel')
+            var vel = Number(tnvel.value)
+            var resultado = window.document.getElementById('res')
+            
+            if (vel > 80) {
+                resultado.innerText = 'Velocidade acima da permitida. Você será multado!'
+            }else{
+                resultado.innerText = 'Velocidade permitida!'
+            }
+        }
+    </script>
+</body>
+</html>
