@@ -1,0 +1,31 @@
+body{
+    background-color: #447dc7;
+    color: white;
+    
+}
+
+h1, footer{
+    text-align: center;
+}
+
+section{
+
+    width: 500px;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    padding: 10px;
+    font: normal 15pt Arial;
+    box-shadow: black 1px 1px 3px;
+    margin: auto;
+    
+    
+}
+
+div{
+    width: 500px;
+}
+
+
+
+
